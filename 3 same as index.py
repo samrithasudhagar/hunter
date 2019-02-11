@@ -8,4 +8,7 @@ for i in range(0,len(l)):
 k=sorted(k)
 for i in k:
     s=s+str(i)+" "
-print(s.strip())
+ if k=="":
+    print("-1")
+ else:
+    print(s.strip())
