@@ -11,5 +11,7 @@ s=sorted(s)
 for i in s:
     k=k+str(i)+" "
     
-    
-print(k.strip())
+if k=="":
+    print("unique")
+else:
+    print(k.strip())
