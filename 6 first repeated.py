@@ -4,4 +4,7 @@ k=[]
 for i in l:
     if l.count(i)>1:
         k.append(i)
-print(k[0])
+if k==[]:
+    print("unique")
+else:
+    print(k[0])
