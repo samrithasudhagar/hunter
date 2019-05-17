@@ -4,9 +4,9 @@ s=0
 for i in range(n):
     l=list(map(int,input().split()))
     k.append(l)
+j=n-1
 for i in range(n):
-    for j in range(n):
-        if i==j:
-            s=s+k[i][j]
+    s=s+k[i][j]
+    j=j-1
 print(s)
 #i
