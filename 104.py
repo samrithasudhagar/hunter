@@ -1,8 +1,10 @@
-s=input()
-l=0
-su=0
-for i in range(len(s)+1):
-    k=s[:i]
-    for i in k:
-        su=su+int(i)
-print(su)
+n = input("")
+li = list(n)
+for i in range(len(li)):
+    li[i] = int(li[i])
+res = 0
+for i in range(len(li)):
+    ans = sum(li[:i+1])
+    res += ans
+print(res)
+#1
