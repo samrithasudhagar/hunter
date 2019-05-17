@@ -25,6 +25,7 @@ else:
     for i in range(len(p)):
         ans.append(q[i])
         ans.append(p[i])
-print(*ans)
-    
+for i in range(len(ans)):
+    print(ans[i],end="")
+
         
