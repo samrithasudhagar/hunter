@@ -1,3 +1,4 @@
+# your code goes here
 from itertools import permutations
 s=input()
 k=permutations(s)
@@ -16,9 +17,11 @@ else:
 		if i>s:
 			m=i
 			break
-	for i in k:
+
+	for i in l:
 		if i>s and i<m:
 			m=i
+
 	if m==-1:
 		print("-1")
 	else:
