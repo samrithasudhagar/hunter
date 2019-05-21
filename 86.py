@@ -1,6 +1,6 @@
 n=int(input())
-c=0
+r=""
 for i in range(1,n+1):
-    if str(2)in str(i):
-        c=c+1
-print(c)
+	r=r+str(i)
+	g=r.count('2')
+print(g)
