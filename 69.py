@@ -9,7 +9,7 @@ for i in range(len(s)):
     if s[i]==".":
         k=i
        
-if m==1 and l==1 and k-n>=4 and len(q)>=3 and s[len(s)-4:]==".com":
+if m==1 and l==1 and k-n<=5 and len(q)>=3 and s[len(s)-4:]==".com":
     print("YES")
 else:
     print("NO")
