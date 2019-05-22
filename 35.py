@@ -6,6 +6,6 @@ for i in range(len(s)):
     else:
         c=1
 if c==0:
-    print("yes")
+    print("YES")
 else:
-    print("no")
+    print("NO")
