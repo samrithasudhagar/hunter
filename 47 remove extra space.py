@@ -1,5 +1,5 @@
 import re
 s=input()
-x=re.sub('\s+', ' ', s).strip()
-print(x)
-#ii
+r=re.sub(' +', ' ',s)
+print(r.strip())
+#ui
